@@ -1,0 +1,14 @@
+/* Background
+
+author: Spencer Shell
+
+*/
+
+body {
+
+background-image:url('../img/thehive.jpeg');
+background-repeat:no-repeat;
+background-size:contain;
+background-position:center;
+
+}
