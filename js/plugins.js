@@ -13,7 +13,7 @@ window.log = function f(){ log.history = log.history || []; log.history.push(arg
 
 	$.fn.getTweet = function(username, numberOfTweets, options){
 		$.fn.getTweet.defaults = {
-				"username" : "whiteboardis",
+				"username" : "thebeehivehouse",
 				"numberOfTweets" : "1"
 		}
 		if ($.isPlainObject(username) && username != null){ options = $.extend({}, username) }
