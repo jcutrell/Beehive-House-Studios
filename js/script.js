@@ -1,3 +1,6 @@
+/*
+Author: Jonathan Cutrell and Taylor Jones
+*/
 (function($, window, undefined){
 
 	var wb = {}, // declare wb namespace
@@ -249,7 +252,7 @@ $(document).ready(function(){
 
 	// load twitter on homepage
 	$(".tweet-text").getTweet({
-		'username' : 'whiteboardis'
+		'username' : 'thebeehivehouse'
 	});
 
 	$(".content .box").each(function(i,el){
